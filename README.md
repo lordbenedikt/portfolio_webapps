@@ -5,5 +5,7 @@ This repository contains some webapps that are part of my portfolio. The portfol
 ## Links to web demos
 
 [AStar Demo](/astar_demo/index.html)
+
 [Hangman Game](/hangman/index.html)
+
 [Maze Generator](/maze_generator/index.html)
