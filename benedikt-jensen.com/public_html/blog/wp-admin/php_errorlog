@@ -1,0 +1,9 @@
+[22-Mar-2022 22:51:00 UTC] PHP Warning:  implode(): Invalid arguments passed in /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php on line 235
+[22-Mar-2022 22:51:00 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 272
+[22-Mar-2022 22:55:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:286
+Stack trace:
+#0 /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(167): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(189, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/benedikt-jensen.com/public_html/blog/wp-includes/class-wp-hook.php(307): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /h in /home/customer/www/benedikt-jensen.com/public_html/blog/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 286

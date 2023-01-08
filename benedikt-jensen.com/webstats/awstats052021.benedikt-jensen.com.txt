@@ -1,0 +1,1069 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202105 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.benedikt-jensen.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2002                
+POS_TIME 2693                
+POS_VISITOR 17714               
+POS_DAY 29908               
+POS_DOMAIN 3556                
+POS_LOGIN 4279                
+POS_ROBOT 4434                
+POS_WORMS 5371                
+POS_EMAILSENDER 5502                
+POS_EMAILRECEIVER 5645                
+POS_SESSION 30743               
+POS_SIDER 30950               
+POS_FILETYPES 5780                
+POS_DOWNLOADS 6221                
+POS_OS 6350                
+POS_BROWSER 6609                
+POS_SCREENSIZE 8585                
+POS_UNKNOWNREFERER 8659                
+POS_UNKNOWNREFERERBROWSER 9135                
+POS_ORIGIN 9514                
+POS_SEREFERRALS 9657                
+POS_PAGEREFS 9840                
+POS_SEARCHWORDS 10177               
+POS_KEYWORDS 10345               
+POS_MISC 2355                
+POS_ERRORS 10420               
+POS_CLUSTER 4135                
+POS_SIDER_404 10589               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20210601000000 5676 1628137 19565320404261
+FirstTime 20210501012053
+LastTime 20210531112559
+LastUpdate 20210601045005 5676 5600 45 0 30
+TotalVisits 326                 
+TotalUnique 286                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 327                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 310 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 32 32 98441 42 63 895210
+1 27 27 56939 74 80 636163
+2 64 97 1572474 60 64 497585
+3 148 149 386391 103 104 403032
+4 45 45 6377 120 123 110246
+5 101 147 1293519 93 167 591619
+6 24 113 3185420 171 177 347212
+7 55 154 4205928 36 51 350819
+8 40 93 1946098 27 39 126464
+9 69 83 243550 103 107 560916
+10 30 32 65843 32 40 300928
+11 89 125 1138989 108 150 2083973
+12 49 84 1438049 124 161 614164
+13 73 168 3323145 165 219 717116
+14 61 294 6715143 96 117 696051
+15 86 329 5801447 107 168 254220
+16 88 235 1995278 50 131 397458
+17 25 27 44225 110 112 272973
+18 100 173 1915371 64 97 830478
+19 101 187 296083 190 245 678381
+20 44 47 119275 44 82 2136034
+21 54 131 3998462 91 113 876210
+22 49 50 84447 30 37 246350
+23 76 92 1933567 92 108 469295
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 36
+us 459 628 6756480
+de 325 1422 26774043
+sg 152 152 78443
+fr 115 115 186792
+ie 102 102 411457
+unknown 73 175 5158871
+tr 23 23 41839
+es 21 21 1848
+ro 21 21 1848
+th 21 21 1848
+pt 14 14 1232
+ua 5 5 84180
+sc 3 3 264
+cn 16 16 138084
+kr 0 1 76782
+hn 1 1 7403
+ru 18 18 188025
+in 2 2 81431
+hk 15 28 1140174
+cy 1 1 354
+hr 21 21 1848
+ap 1 1 11052
+md 21 21 1848
+jp 21 21 1848
+gr 3 3 79957
+gb 8 8 704
+ch 6 6 528
+at 3 3 264
+eu 1 1 41541
+vn 17 17 1496
+it 5 5 440
+ca 18 19 566215
+nl 8 9 2563
+mn 2 2 176
+se 5 5 22319
+lu 3 3 264
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 20
+wordpress 660 558925 20210531221315 0
+AhrefsBot/ 112 547498 20210531221316 49
+bingpreview 65 1874676 20210528122247 0
+Googlebot/ 61 550746 20210531044641 8
+dataprovider\.com 42 1593486 20210522202326 1
+bot[\s_+:,\.\;\/\\-] 37 402535 20210531082545 0
+baidu 23 1167308 20210523010312 0
+crawl 19 101386 20210531063721 3
+python 17 131674 20210529211547 0
+bingbot/ 16 91420 20210528122258 5
+Googlebot\-Image/ 2 153564 20210511051131 0
+Python\-urllib/ 1 41554 20210527135931 0
+(firefox/)([0-9]\.|[0-1][0]\.) 3 124872 20210529072246 0
+no_user_agent 7 151133 20210524114243 0
+Screaming[\x20]Frog[\x20]SEO[\x20]Spider/ 1 107 20210520024301 0
+unknown 9 972 20210518062338 9
+curl 2 79822 20210507030126 0
+custo 4 159738 20210508025240 0
+discover 1 10733 20210505141526 0
+facebookexternalhit/ 1 124 20210521114651 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 21
+css 311 3126229 0 0
+ttf 4 200944 0 0
+txt 32 110739 0 0
+woff 12 141056 0 0
+woff2 18 1545120 0 0
+json 4 428 0 0
+php 147 790397 0 0
+xsd 2 214 0 0
+html 626 4581254 0 0
+xml 641 61355 0 0
+jpg 31 8365297 0 0
+eot 1 191420 0 0
+png 272 1038335 0 0
+env 45 4815 0 0
+htm 1 437 0 0
+gd 1 88 0 0
+js 604 12012247 0 0
+jpeg 102 9219605 0 0
+Unknown 28 55662 0 0
+gif 1 15238 0 0
+svg 31 403581 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 3
+/hangman/words_positive.txt 30 0 102350
+/qrtest.txt 1 0 63
+/license.txt 1 0 8326
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 15
+linuxandroid 142 73
+winxp 7 7
+winlong 3 3
+ios_iphone 9 9
+winnt 1 1
+macosx12 1 1
+linux 532 211
+win7 75 59
+macosx 49 49
+macosx10 2 2
+win8 1 1
+win8.1 8 7
+Unknown 19 19
+win10 2064 1087
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 89
+chrome88.0.4240.193 199 199
+chrome84.0.4147.125 6 6
+chrome80.0.3987.122 1 1
+edge12 2 2
+chrome5.0.375.99 6 6
+chrome79.0.3945.79 36 2
+chrome81.0.4044.129 10 10
+firefox18.0 1 1
+chrome64.0.2222.81 1 1
+chrome63.0.2585.63 1 1
+chrome58.0.3029.110 1 1
+chrome83.0.4103.97 117 75
+safari5.0.2 9 9
+chrome42.0.2311.90 11 11
+chrome62.0.2559.124 1 1
+chrome68.0.3398.0 202 86
+chrome90.0.4430.212 101 16
+chrome89.0.4389.114 40 40
+firefox59.0 4 4
+chrome76.0.3809.71 77 4
+chrome62.0.2170.67 1 1
+chrome80.0.3987.117 1 1
+chrome66.0.3359.181 3 3
+chrome50.0.2661.75 1 1
+chrome49.0.2623.112 1 1
+firefox79.0 1 1
+chrome90.0.4430.91 4 1
+chrome90.0.4430.93 603 141
+firefox50.0 10 10
+firefox48.0 1 1
+chrome67.0.2523.101 1 1
+firefox40.0 2 2
+chrome78.0.3904.62 7 7
+firefox77.0 180 28
+chrome68.0.3440.106 2 2
+chrome63.0.3239.132 88 88
+chrome60.0.3112.107 48 48
+firefox38.0 2 2
+chrome83.0.4087.0 2 2
+chrome60.0.3112.113 1 1
+firefox45.0 10 10
+chrome78.0.3904.97 105 105
+firefox33.0 2 2
+mozilla 9 9
+netscape5.0 3 3
+chrome83.0.4086.0 1 1
+chrome83.0.4103.34 1 1
+chrome13.0.782.41 1 1
+chrome41.0.2228.0 1 1
+chrome83.0.4103.0 4 4
+chrome79.0.3945.147 7 4
+chrome83.0.4103.24 1 1
+android 1 1
+chrome86.0.4240.183 2 1
+firefox52.0 2 2
+chrome71.0.3578.98 6 6
+firefox24.0 1 1
+chrome87.0.4280.141 59 7
+chrome26.0.1410.65 1 1
+chrome62.0.2265.117 1 1
+chrome24.0.1312.57 2 2
+chrome83.0.4103.61 21 5
+chrome74.0.3729.169 23 23
+chrome62.0.2529.137 1 1
+Unknown 11 11
+chrome59.0.3071.115 1 1
+firefox82.0 4 2
+firefox17.0 22 22
+chrome91.0.4472.77 50 6
+chrome62.0.3511.141 1 1
+chrome41.0.2226.0 1 1
+chrome78.0.3904.108 252 252
+firefox58.0 4 4
+chrome41.0.2227.0 2 2
+chrome54.0.2840.99 1 0
+chrome80.0.3987.149 21 21
+firefox67.0 9 9
+opera76.0.4017.107 8 2
+chrome79.0.3945.88 1 1
+chrome45.0.2454.94 1 1
+msie11.0 37 2
+opera32.0.1948.45 6 6
+firefox88.0 317 69
+chrome89.0.4389.82 1 1
+firefox81.0 47 47
+chrome83.0.4103.106 11 3
+chrome86.0.4240.75 1 0
+chrome88.0.4324.146 4 4
+chrome79.0 51 51
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 6
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210510031519
+colly_-_https://github.com/gocolly/colly/v2 20210525083613
+Mozilla/5.0_(compatible;_Domains_Project/1.3.2;__https://domainsproject.org) 20210515150715
+Go-http-client/1.1 20210519131129
+WhatsApp/2.21.9.13_A 20210512132638
+GRequests/0.10 20210527213512
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 5
+NetSystemsResearch_studies_the_availability_of_various_services_across_the_internet._Our_website_is_netsystemsresearch.com 20210510031519
+colly_-_https://github.com/gocolly/colly/v2 20210525083613
+Go-http-client/1.1 20210519131129
+WhatsApp/2.21.9.13_A 20210512132638
+GRequests/0.10 20210527213512
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1325 1352
+From1 3 3
+From2 12 12
+From3 9 9
+From4 181 1538
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+www_google_com_hk 11 11
+google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 4
+http://simplesite.com 5 5
+https://mp3s.club 2 2
+https://magnet.wtf/the%20great%20indoors%20s01e09%201080p%20web%20dl%20dd5%201%20h264%20goape%203987903%20torrents 1 1
+https://x4mp3.art 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 1
+6012487941600 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 1
+6012487941600 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 8
+401 4 552
+302 12 60
+499 83 0
+444 832 0
+405 4 212
+400 43 2098289
+301 120 7965
+404 264 5242546
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 156
+/ 3 -
+/vendor/laravel/.env 1 -
+/wp-content/plugins/theplus_elementor_addon/assets/css/admin/theplus-ele-admin.css 1 -
+/wp-admin/images/404.php 1 http://simplesite.com
+/blackhat.php 1 http://simplesite.com
+/registration 1 -
+/wp-content/admin.php 3 http://simplesite.com
+/wp-includes/upload_index.php 1 -
+/.info.php 2 http://simplesite.com
+/wp-content/plugins/background-image-cropper/new_license.php.suspected 2 http://simplesite.com
+/application/application.ini 1 -
+/admin/assets/fileupload/ 1 http://www.google.com/
+/docindex.php 1 http://simplesite.com
+/hangman/index.htm 1 -
+/storage/.env 1 -
+/wp-content/themes/plaintext/includes/custom-header.php 5 http://simplesite.com
+/backup/dumper.php 1 -
+/wp-admin/links.php 1 http://simplesite.com
+/blackhat.php.suspected 1 http://simplesite.com
+/wp-content/plugins/ubh/up.php 1 http://benedikt-jensen.com/wp-content/plugins/ubh/up.php
+/wp-admin/css/common.php 1 http://simplesite.com
+/doc.php 3 http://simplesite.com
+/a1.php 1 benedikt-jensen.com
+/wp-json/td/v1/optin/subscription 1 -
+/register 1 -
+/catalog/Adminhtml_category 2 -
+/assets/uploadify/uploadify.css 1 http://www.google.com/
+/test1index.php 2 benedikt-jensen.com
+/wp-content/plugins/simple-301-redirects/assets/js/simple-301-redirects.core.min.js 1 -
+/style.php 3 benedikt-jensen.com
+/wp-content/plugins/kaswara/front/assets/js/script.js 11 -
+/lock360.php 1 benedikt-jensen.com
+/wp-content/plugins/cherry-plugin/admin/css/cherry-admin-plugin.css 1 -
+/wp-stream.php 3 benedikt-jensen.com
+/cache/doc.php 2 http://simplesite.com
+/config/parameters.yml 1 -
+/dumper.php 1 -
+/admin/fileupload/ 1 http://www.google.com/
+/hangman/sketch.js 3 http://benedikt-jensen.com/hangman/
+/content-post.php 2 http://simplesite.com
+/wp-content/db-cache.php 8 -
+/wp-content/themes/astra/thumb.php 2 -
+/cache/content-post.php 1 http://simplesite.com
+/cache/blackhat.php 1 http://simplesite.com
+/new.php 1 benedikt-jensen.com
+/assets/plugins/jqueryupload/server/php/ 1 http://www.google.com/
+/hangman/index 1 -
+/wp-includes/Requests/Exception/HTTPS.php 1 -
+/index.html 2 -
+/wp-content/plugins/wc-frontend-manager/readme.txt 1 -
+/app/.env 1 -
+/wp-content/plugins/wp-mobile-detector/readme.txt 1 http://www.google.com/
+/wp-content/plugins/official-facebook-pixel/css/admin.css 1 -
+/ckfinder/core/connector/php/connector.php 1 -
+/wp-content/themes/distance-lite/languages/namespaces.php 5 http://simplesite.com
+/js/ckfinder/core/connector/php/connector.php 1 -
+/gank.php.PhP 3 http://simplesite.com
+/admin/jquery-file-upload/server/php/ 1 http://www.google.com/
+/ads.txt 4 -
+/1.php 2 http://simplesite.com
+/dumper/dumper.php 1 -
+/my-account 1 -
+/application/configs/application.ini 1 -
+/wp-content/plugins/jquery-html5-file-upload/readme.txt 1 http://www.google.com/
+/db/dumper.php 1 -
+/wp-content/plugins/gravityforms/css/admin.css 2 -
+/parameters.yml 1 -
+/theme/assets/fileupload/ 1 http://www.google.com/
+/mazegenerator 1 -
+/wp-info.php 3 http://simplesite.com
+/class-widget-archives.php 2 http://simplesite.com
+/wp-content/uploads/wp-logout.php 3 benedikt-jensen.com
+/content-post.php.suspected 2 http://simplesite.com
+/wp-content/themes/astra/themify/css/themify-ui.css 1 -
+/admin/assets/uploadify/uploadify.css 1 http://www.google.com/
+/dump/dumper.php 1 -
+/_.php 1 http://simplesite.com
+/hangman/style.css 2 http://benedikt-jensen.com/hangman/
+/assets/fileupload/ 1 http://www.google.com/
+/Vuln.php 2 -
+/wp-content/plugins/external-media/js/external-media.js 1 -
+/admin/dumper.php 1 -
+/admin/uploadify/uploadify.css 1 http://www.google.com/
+/media-admin.php 1 http://simplesite.com
+/wp-content/plugins/apikey/apikey.php 1 http://benedikt-jensen.com/wp-content/plugins/apikey/apikey.php
+/wso.php 5 http://simplesite.com
+/wp-content/plugins/controlled-admin-access/admin/js/controlled-admin-access-admin.js 1 -
+/vendor/.env 1 -
+/wp-content/plugins/quadmenu/assets/frontend/js/quadmenu.js 1 -
+/dup-installer/main.installer.php 1 -
+/55index.php 1 http://simplesite.com
+/shell.php 3 http://simplesite.com
+/public/assets/uploadify/uploadify.css 1 http://www.google.com/
+/plugins/uploadify/uploadify.css 1 http://www.google.com/
+/wp-content/themes/alternate-lite/inc/network.php 2 http://simplesite.com
+/cache/wp-plugins.php 2 http://simplesite.com
+/wp-content/plugins/redirection/models/wp-contentt.php 1 http://simplesite.com
+/wp-content/plugins/visitors-traffic-real-time-statistics/js/front.js 1 -
+/blob/.env 1 -
+/new-index.php 4 benedikt-jensen.com
+/.well-known/security.txt 1 -
+/wp-content/plugins/store-locator-le/js/slp_core.js 1 -
+/about.php 3 http://simplesite.com
+/content.php 1 benedikt-jensen.com
+/app/config/parameters.yml 1 -
+/wp-content/plugins/background-image-cropper/content-post.php 2 http://simplesite.com
+/plugins/jqueryupload/server/php/ 1 http://www.google.com/
+/assets/images/doc.php 3 http://simplesite.com
+/assets/elfinder/connectors/php/connector.php 1 http://www.google.com/
+/wp-content/plugins/wpcf7-redirect/js/wpcf7-redirect-script.js 1 -
+/wp-admin/user/user-profile.php 2 http://simplesite.com
+/admin/assets/plugins/jQuery-File-Upload/server/php/ 1 http://www.google.com/
+/wp-content/uploads/2021/05/jm.php 2 -
+/public/.env 2 -
+/wp-content/plugins/cmp-coming-soon-maintenance/js/cmp-advanced.js 1 -
+/public/assets/fileupload/ 1 http://www.google.com/
+/logs 1 -
+/bacot.php 1 http://simplesite.com
+/wp-content/plugins/business-directory-plugin/assets/js/admin.js 1 -
+/wp-content/plugins/custom-registration-form-builder-with-submission-manager/readme.txt 1 -
+/wp-content/uploads/upload_index.php 1 -
+/sxd/ 1 http://benedikt-jensen.com/sxd/index.php
+/404.php 2 http://simplesite.com
+/cache/simple.php5 1 http://simplesite.com
+/wp-content/uploads/404.php 1 http://simplesite.com
+/humans.txt 2 -
+/wp-content/plugins/letme/weblinks.php 1 http://simplesite.com
+/app/parameters.yml 1 -
+/wp-content/plugins/wp-content-copy-protector/js/simpletabs_1.3.js 1 -
+/sypex/dumper.php 1 -
+/cache/blackhat.php.suspected 1 http://simplesite.com
+/wp-content/themes/astra/includes/uploadify/upload_settings_image.php 1 -
+/wp-content/plugins/background-image-cropper/doc.php 3 -
+/.env 11 -
+/config.php 4 http://simplesite.com
+/wp-content/themes/sketch/404.php 1 -
+/class-wp-widget-archives.php 1 http://simplesite.com
+/wp-content/plugins/wpdiscuz/readme.txt 2 -
+/wp-content/themes/astra/timthumb.php 2 -
+/images/ 1 -
+/wp-content/wp-muen.php 1 http://simplesite.com
+/mini.php 2 http://simplesite.com
+/test1dewreio8uhdsfd.php 2 benedikt-jensen.com
+/maze_generator 2 -
+/wp-blog-header.php 1 benedikt-jensen.com
+/2.php 1 http://simplesite.com
+/wp-plugins.php 3 http://simplesite.com
+/astar-demo 1 -
+/wp-admin/upload_index.php 1 -
+/signup 1 -
+/vendor/phpunit/phpunit/phpunit.xsd 1 -
+/test1efewf938hdsf 2 benedikt-jensen.com
+/index.php 1 -
+/shl.php 1 -
+/maze-generator 1 -
+/wp-admin/network/network.php 5 http://simplesite.com
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 327
+90.186.214.27 242 1188 21379468 20210519155131
+34.242.222.225 64 64 5632 20210530092652
+35.180.232.73 64 64 5632 20210531011051
+45.77.245.222 63 63 5544 20210526103235
+132.145.210.197 63 63 5544 20210510190654
+20.62.162.223 42 42 3696 20210527121222
+45.33.88.244 40 40 3520 20210525033440
+128.199.138.46 40 40 3520 20210523091631
+91.211.251.148 33 99 2384522 20210514023955
+82.165.126.203 23 23 2461 20210504114035
+54.203.73.198 1 2 15171 20210518062338
+54.191.42.190 1 1 11053 20210525052419
+34.221.40.0 1 1 41562 20210522120114
+196.18.2.90 21 21 1848 20210525090145
+156.67.222.62 1 1 354 20210512220210
+34.248.103.0 1 1 11053 20210527231234
+54.213.13.12 1 1 11053 20210517052307
+195.142.69.250 22 22 1936 20210516220746
+44.234.85.14 1 1 11053 20210515051738
+34.221.52.51 1 1 11074 20210525051957
+35.167.133.73 0 1 4119 
+52.33.42.115 1 2 15171 20210528052219
+121.5.103.58 1 1 11074 20210527030638
+85.143.219.155 1 1 354 20210513140449
+52.209.64.90 1 1 11053 20210517030804
+54.187.212.125 1 1 0 20210530065329
+192.71.2.171 1 1 10710 20210502002908
+185.165.168.229 3 3 264 20210512190012
+180.214.236.35 17 17 1496 20210506231947
+34.250.230.38 1 1 11053 20210527111720
+198.12.66.215 13 14 524309 20210518154507
+3.250.156.26 1 1 10710 20210510031045
+54.244.105.158 0 1 4119 
+54.190.117.210 1 1 11074 20210525051909
+52.12.182.245 1 1 11074 20210528054816
+69.12.72.188 1 1 41541 20210515201605
+54.189.87.28 1 1 11053 20210517051732
+161.35.183.194 1 1 11052 20210516154911
+173.225.110.147 20 20 1760 20210520114850
+90.186.120.81 7 47 1671571 20210521184931
+147.135.105.62 1 1 88 20210504205126
+62.109.13.37 1 1 39890 20210511084147
+58.53.128.88 1 1 11053 20210527213512
+54.154.14.185 1 1 10742 20210513031119
+54.217.158.96 1 1 11053 20210520111107
+188.210.58.154 13 29 21831 20210512171706
+52.90.218.57 1 1 39966 20210505175116
+5.45.64.104 1 2 1586 20210521210657
+54.187.251.9 1 1 11051 20210523053749
+31.28.163.61 1 1 107 20210509135422
+34.240.229.150 1 1 11052 20210520020902
+34.220.38.68 1 1 11074 20210525052342
+161.53.180.19 21 21 1848 20210516053551
+202.70.34.82 2 2 176 20210513231032
+52.36.210.155 1 1 10733 20210508050200
+54.246.49.243 1 1 11053 20210517110541
+3.249.67.13 1 1 11053 20210526030720
+107.150.46.52 3 3 32540 20210527122033
+18.237.211.222 1 1 11074 20210526053259
+34.214.220.81 0 1 4119 
+62.210.180.135 20 20 1760 20210506130458
+102.128.141.14 14 47 1973847 20210504211914
+54.202.110.11 1 1 11053 20210524051339
+34.241.120.187 1 1 11053 20210519031101
+62.210.5.253 1 1 41624 20210530083152
+178.162.212.214 1 1 6438 20210507114536
+203.133.180.35 0 1 76782 
+51.143.38.56 12 12 1284 20210516063515
+89.234.157.254 1 1 88 20210517001839
+54.191.254.81 0 1 4119 
+54.218.153.1 1 1 11075 20210524051036
+54.188.57.243 1 1 11052 20210518052752
+138.199.36.132 1 1 41541 20210528142710
+3.249.125.133 1 1 10709 20210506030958
+42.193.45.103 2 2 13539 20210525180414
+52.24.190.254 1 1 11075 20210524051142
+45.81.139.195 1 1 88 20210523041010
+51.89.227.251 1 1 10710 20210506165217
+44.242.163.60 0 1 4119 
+54.196.177.230 1 1 11053 20210519131129
+34.223.41.6 1 1 10742 20210513004427
+54.155.40.50 1 1 11053 20210521111403
+18.237.70.149 1 1 11053 20210524051036
+54.186.128.5 1 1 11053 20210519050808
+54.195.18.196 1 1 11052 20210518165618
+54.189.213.226 0 1 4119 
+35.160.16.236 1 1 11053 20210520054547
+74.208.177.88 1 1 10742 20210512230416
+18.237.35.176 0 1 4119 
+159.242.234.78 20 20 1760 20210505214230
+89.179.119.216 1 1 11054 20210514203610
+5.62.43.104 5 5 440 20210512074006
+220.210.189.14 21 21 1848 20210503181804
+185.250.39.206 1 1 11052 20210516191426
+18.237.207.74 1 1 11053 20210519052837
+34.223.4.166 0 1 4119 
+34.223.6.215 0 1 4119 
+18.203.88.236 1 1 11053 20210524111100
+52.26.248.202 1 1 11053 20210531095145
+54.214.108.62 0 1 4119 
+80.92.206.251 1 1 8457 20210503122600
+34.216.138.17 0 1 4119 
+35.163.192.176 0 1 4119 
+180.167.101.134 2 2 14806 20210510223726
+34.211.56.233 0 1 4119 
+34.219.129.65 1 1 11075 20210519051332
+174.138.18.208 4 4 43528 20210527013946
+52.36.241.33 1 1 11053 20210515051440
+199.187.126.42 1 1 10742 20210512230416
+54.185.209.232 1 1 0 20210518212057
+34.220.182.10 1 1 11075 20210530105149
+34.243.119.72 1 1 11053 20210514111100
+129.159.40.139 1 1 31 20210501203825
+192.36.53.165 1 1 234 20210502002906
+34.245.21.64 1 1 10711 20210510110641
+158.175.164.89 1 2 14829 20210503140159
+34.255.180.230 1 1 11053 20210521031013
+172.241.82.16 1 1 11053 20210514104137
+195.176.3.19 6 6 528 20210512190045
+219.138.163.116 1 1 11053 20210517052221
+34.222.189.224 0 1 4119 
+54.171.134.205 1 1 11052 20210518110613
+34.213.218.253 1 1 11052 20210527051120
+137.117.38.56 21 21 1848 20210506133741
+134.176.242.82 1 4 5823 20210512133328
+192.151.156.190 1 1 10731 20210502191622
+185.141.34.6 1 1 39903 20210510034916
+196.18.229.229 13 26 1139466 20210521230229
+136.169.243.163 1 1 107 20210520000045
+44.228.141.164 1 1 10711 20210510055449
+208.110.85.69 1 1 11074 20210516070649
+45.141.84.35 1 1 88 20210514152828
+34.217.9.255 1 1 11074 20210525052415
+193.56.29.139 2 2 21419 20210507192621
+42.193.8.97 1 1 11052 20210526211736
+54.212.92.36 0 1 4119 
+13.92.238.249 20 20 1760 20210528225841
+185.83.214.69 14 14 1232 20210528184245
+54.218.108.170 1 1 11053 20210519051900
+34.244.206.101 1 1 10710 20210507111037
+54.212.33.34 0 1 4119 
+82.165.119.192 13 13 1391 20210515070608
+35.161.25.158 0 1 4119 
+95.91.237.179 1 4 10347 20210515201621
+150.136.165.238 17 17 1496 20210501031158
+54.149.50.10 1 1 11074 20210525051900
+107.150.63.172 1 1 10733 20210505101747
+34.210.71.235 1 1 11075 20210519052814
+18.236.130.151 1 1 10733 20210508052207
+5.2.69.42 1 1 88 20210517001837
+35.166.168.71 1 1 10743 20210513073728
+58.53.128.148 1 1 10711 20210501065958
+34.245.33.141 1 1 10709 20210506110634
+34.220.106.229 1 1 11053 20210515051358
+3.249.49.238 1 1 869 20210531110948
+44.233.150.71 1 1 11073 20210517051315
+20.86.124.135 1 1 11074 20210519164215
+178.159.37.58 1 1 88 20210516090737
+34.249.157.94 1 1 11053 20210519111120
+54.216.103.44 1 1 10710 20210504134821
+39.106.223.134 2 2 176 20210526062202
+213.211.241.42 1 1 0 20210529064454
+185.182.56.216 1 1 354 20210506180250
+138.246.253.24 4 4 0 20210527083224
+34.220.78.99 1 1 11074 20210529080857
+35.203.149.217 1 1 0 20210510203636
+54.245.16.13 0 1 4119 
+103.250.157.39 1 1 39890 20210510223809
+195.154.62.232 1 1 41554 20210530083151
+212.129.152.41 1 1 11053 20210525144605
+132.145.167.95 17 17 1496 20210507085131
+37.1.205.209 5 5 535 20210502182435
+3.249.249.186 1 1 10710 20210507152629
+34.255.116.16 1 1 11052 20210527031243
+54.245.44.101 1 1 11053 20210526053152
+54.186.55.107 1 2 15193 20210525051656
+35.163.225.158 1 1 11074 20210525051934
+92.118.77.10 1 1 88 20210512050651
+92.211.124.52 6 50 1849382 20210528212306
+34.212.163.25 1 1 11052 20210527051128
+54.218.81.254 1 1 11053 20210531094702
+171.100.11.50 21 21 1848 20210509233642
+34.105.78.26 1 1 0 20210510203637
+18.202.245.223 1 1 11053 20210531030759
+52.48.230.133 1 1 10710 20210505031144
+54.213.195.51 1 1 11053 20210526053019
+42.192.17.155 2 2 22148 20210526233221
+54.184.27.46 0 1 4119 
+52.33.56.7 1 1 11074 20210525052714
+52.209.156.20 1 1 10710 20210511030650
+185.220.100.255 3 3 264 20210528184239
+64.246.165.160 1 1 11053 20210524162958
+54.78.125.115 1 1 11053 20210514030610
+52.213.29.202 1 1 11052 20210520031054
+92.223.89.147 3 3 264 20210531101654
+192.151.156.189 1 1 10733 20210506070625
+54.202.237.187 0 1 4119 
+34.245.175.11 1 1 11053 20210531110739
+54.218.50.96 1 1 11075 20210519051228
+2.200.69.46 8 53 1813908 20210518075838
+95.153.83.232 21 21 1848 20210530203123
+107.150.63.170 1 1 107 20210528173113
+91.210.225.37 1 1 11074 20210527001250
+52.88.43.54 0 1 4119 
+63.33.42.255 1 1 10710 20210504110942
+35.185.249.65 1 1 0 20210510203633
+91.121.67.43 1 1 107 20210527161114
+54.235.73.88 6 6 49009 20210514234901
+52.31.238.41 1 1 11052 20210528031409
+18.237.32.251 1 1 10743 20210513050733
+212.83.146.233 1 1 41624 20210530080248
+52.12.96.62 0 1 4119 
+34.215.54.12 1 1 10733 20210508051225
+34.212.160.34 1 1 11073 20210522054552
+34.220.164.59 0 1 4119 
+18.237.129.100 1 1 11074 20210525052201
+205.169.39.227 3 53 1639725 20210502062206
+194.34.132.58 3 3 264 20210531035232
+68.3.78.181 2 2 22106 20210525083613
+52.36.195.219 1 1 11052 20210528051636
+92.63.196.29 9 9 963 20210518205543
+159.203.189.81 1 1 41562 20210526214451
+178.213.2.221 2 2 42423 20210515184824
+93.158.90.135 1 1 234 20210514001206
+54.149.168.215 1 1 11074 20210520054523
+54.216.31.53 1 1 11053 20210525031130
+54.202.63.110 1 1 10743 20210512054437
+47.52.135.58 2 2 708 20210524205502
+35.161.115.169 0 1 4119 
+54.187.64.234 1 1 11074 20210525052628
+167.99.127.159 1 1 11053 20210522021402
+54.202.27.15 1 1 11052 20210527053118
+62.210.178.60 20 20 1760 20210506114448
+107.150.63.171 1 1 11073 20210517185552
+54.244.80.195 0 1 4119 
+52.32.149.241 0 1 4119 
+18.237.229.55 1 1 11052 20210528052153
+44.228.128.175 1 1 10710 20210508050156
+107.150.52.195 1 1 10733 20210510132122
+35.167.72.108 1 1 11053 20210516051123
+54.154.50.206 1 1 11074 20210521184133
+52.16.245.189 1 1 11053 20210526111700
+34.210.42.129 0 1 4119 
+104.43.224.231 19 19 1672 20210502004404
+52.38.158.234 1 1 11074 20210527051234
+52.26.197.4 0 1 4119 
+34.211.149.251 1 2 15172 20210531100338
+5.101.157.136 1 1 41554 20210529002341
+52.34.237.43 1 1 11053 20210525180831
+54.190.171.222 0 1 4119 
+34.213.40.243 0 1 4119 
+107.189.10.63 1 1 88 20210517001838
+34.212.40.42 0 1 4119 
+103.241.227.110 1 1 41541 20210531112559
+40.124.75.92 2 2 22127 20210527010718
+34.215.104.167 1 1 10733 20210509052643
+59.175.144.14 1 1 10710 20210511100343
+103.62.48.237 21 21 1848 20210514074445
+34.222.117.174 1 1 11074 20210527051204
+213.164.204.171 1 1 88 20210504205127
+34.241.158.182 1 1 10743 20210512111641
+54.213.7.59 1 1 11074 20210526053216
+109.70.100.57 3 3 264 20210528184238
+54.212.186.246 0 1 4119 
+162.243.4.24 1 1 11473 20210516154912
+92.118.160.37 1 1 39903 20210508213908
+54.155.145.249 1 1 869 20210531102728
+54.255.153.242 2 2 22155 20210517020127
+54.39.29.64 2 2 176 20210517081841
+188.119.123.162 8 8 69872 20210520212624
+18.237.205.104 1 1 11073 20210522053706
+84.17.46.159 5 5 440 20210508050954
+18.237.151.50 1 1 11074 20210525051834
+54.74.137.67 1 1 10710 20210511110654
+65.155.30.101 4 77 3358469 20210529072333
+44.226.199.248 0 1 4119 
+47.89.156.114 0 1 76782 
+195.181.174.155 1 1 107 20210511220145
+34.220.104.137 1 1 11053 20210525051725
+167.114.100.197 2 2 176 20210512124659
+102.128.141.128 13 16 697961 20210521234147
+3.249.131.242 1 1 10743 20210513110733
+34.246.124.50 1 1 11052 20210518030601
+188.130.129.246 2 2 44092 20210529180745
+128.199.168.249 21 21 1848 20210517043858
+58.53.128.234 1 1 10709 20210506084006
+51.38.83.105 3 3 264 20210512093437
+92.118.160.5 1 1 39966 20210510031519
+162.55.178.121 1 1 11053 20210525203223
+35.198.205.123 1 1 11052 20210526184136
+157.230.239.248 8 8 45286 20210515150715
+34.244.129.216 1 1 10743 20210512031743
+34.213.40.230 1 1 11074 20210525051034
+54.78.247.212 1 1 11052 20210528111226
+149.56.150.40 1 1 41554 20210522202312
+182.54.239.199 1 1 0 20210516191425
+54.188.225.47 1 1 11073 20210523053922
+34.213.153.41 1 1 11074 20210525053305
+44.242.171.130 1 1 10711 20210501052410
+54.189.230.128 1 2 14861 20210512225722
+34.240.92.124 1 1 10710 20210505111042
+52.39.173.70 1 1 11053 20210525052058
+54.217.57.157 1 1 11053 20210525110731
+192.151.156.188 1 1 11074 20210525011846
+80.87.193.180 1 1 41554 20210531064814
+54.218.57.120 0 1 4119 
+34.219.150.210 0 1 4119 
+54.218.124.134 0 1 4119 
+193.200.151.103 1 1 41562 20210515050452
+54.184.212.199 1 1 11075 20210524050959
+199.249.230.110 1 1 88 20210517001900
+54.203.218.204 0 1 4119 
+34.222.4.69 0 1 4119 
+93.158.90.155 1 1 11053 20210514001210
+81.202.100.124 21 21 1848 20210521020408
+177.234.143.212 1 1 7403 20210525154225
+34.220.23.221 1 1 11053 20210522053717
+216.145.5.42 1 1 10710 20210504161946
+35.161.78.157 1 1 11053 20210520054601
+34.213.32.54 0 1 4119 
+37.59.53.33 1 1 107 20210510140736
+62.4.14.198 1 1 41562 20210530075244
+35.165.99.137 1 1 11075 20210524051016
+34.254.95.134 1 1 11053 20210524031122
+34.243.109.152 1 1 10710 20210507030646
+77.81.136.108 21 21 1848 20210529033708
+35.230.62.252 1 1 0 20210510203632
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20210501 48 84 917928 9
+20210502 30 80 1663607 6
+20210503 44 45 26982 4
+20210504 30 63 2007330 7
+20210505 26 26 95345 7
+20210506 106 106 73345 12
+20210507 23 23 50774 7
+20210508 10 12 91490 6
+20210509 23 24 16807 3
+20210510 35 36 183504 14
+20210511 57 283 6523939 8
+20210512 133 479 6434193 18
+20210513 70 282 3865899 10
+20210514 62 122 2367850 15
+20210515 29 32 215709 11
+20210516 62 62 60860 11
+20210517 35 36 105973 14
+20210518 36 83 2398559 9
+20210519 40 203 4332255 13
+20210520 36 38 146314 10
+20210521 58 114 3544057 8
+20210522 26 28 137366 7
+20210523 23 25 32210 4
+20210524 11 19 133225 10
+20210525 109 117 335264 30
+20210526 55 59 172501 14
+20210527 59 59 169720 17
+20210528 54 99 1965003 13
+20210529 30 103 3457037 6
+20210530 135 136 192910 11
+20210531 35 36 146505 12
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 2
+5mn-15mn 3
+0s-30s 305
+2mn-5mn 1
+30s-2mn 7
+15mn-30mn 2
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 120
+/ 387 3718016 267 219
+/hangman/ 145 31145 10 10
+/xmlrpc.php 46 7452 2 0
+/wp-includes/wlwmanifest.xml 45 8615 0 4
+/blog/wp-includes/wlwmanifest.xml 38 3344 0 0
+/test/wp-includes/wlwmanifest.xml 38 3344 0 0
+/site/wp-includes/wlwmanifest.xml 38 3344 0 0
+/news/wp-includes/wlwmanifest.xml 38 3344 0 0
+/wp1/wp-includes/wlwmanifest.xml 38 3344 0 0
+/web/wp-includes/wlwmanifest.xml 38 3344 0 0
+/tinyf.php 1 88 0 0
+/merge.php 1 88 0 0
+/mn.php 1 88 1 0
+/tinfm.php 1 88 0 0
+/wp-admin/post-new.php 1 68911 0 0
+/api/.env 4 428 0 0
+/wordpress/ 2 176 0 0
+/wp-admin/load-styles.php 2 327491 0 0
+/wp-admin/admin-post.php 2 214 0 0
+/ftpsync.settings 1 107 0 0
+/vendor/.env 4 428 0 0
+/feed/ 9 7773 2 3
+/laravel/.env 4 428 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.eot 1 191420 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff 1 104712 0 0
+/2015/wp-includes/wlwmanifest.xml 5 440 0 0
+/.ftpconfig 1 107 0 0
+/em.php 1 88 0 0
+/wp-admin/ 1 88 1 1
+/2019/wp-includes/wlwmanifest.xml 30 2640 0 0
+/wp-content/themes/astra/404.php 1 31 1 1
+/comments/feed/ 6 4530 0 0
+/.git/config 1 107 1 0
+/hangman/index.htm 1 437 0 0
+/wp-json/wp/v2/pages/89 3 1992 0 0
+/tfm.php 1 88 0 0
+/wp-admin/post.php 2 135724 0 0
+/wp-config_backup 1 88 1 1
+/wp-sitemap.xml 2 468 2 2
+/wp-content/ 1 31 1 1
+/tinyfm.php 1 88 1 0
+/wp-json/ 8 493785 1 1
+/wp-content/themes/astra/assets/fonts/astra.woff 11 36344 2 0
+/wp-content/plugins/wechat-broadcast/wechat/Image.php 1 107 1 1
+/fmg.php 1 88 0 0
+/wp-content/plugins/worprees-plugin-bug-dar/ultimate-member/includes/admin/core/class-admin-upgrade.php 2 214 2 1
+/tmanager.php 1 88 0 1
+/fm/fm.php 1 88 1 0
+/shop/wp-includes/wlwmanifest.xml 35 3080 0 0
+/tinyfilemanager/tinyfilemanager.php 1 88 0 0
+/wp-content/plugins/cherry-plugin/admin/import-export/download-content.php 1 88 0 0
+/pas.php 1 88 0 0
+/wp-admin/load-scripts.php 3 120499 0 0
+/wp-content/themes/astra/assets/fonts/astra.ttf 3 9684 0 3
+/filemanager/filemanager.php 1 88 0 1
+/tfilemanager.php 1 88 0 0
+/wp-content/plugins/tinyfilemanager.php 1 88 0 0
+/.vscode/sftp.json 1 107 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.ttf 1 191260 0 0
+/system/.env 4 428 0 0
+/tiny.php 1 88 0 0
+/wp-json/wp/v2/pages/5 6 29500 0 0
+/astar_demo/ 35 6128 2 2
+/public/.env 4 428 0 0
+/hangmann/ 1 437 0 0
+/wp-login.php 30 63576 8 8
+/wp-content/plugins/ioptimization/IOptimize.php 2 214 2 2
+/wp-config.php 2 195 2 1
+/mazeGenerator/ 7 2340 0 2
+/manager.php 1 88 0 0
+/website/wp-includes/wlwmanifest.xml 38 3344 0 0
+/new.php 1 88 0 1
+/emergen.php 1 88 1 0
+/tinyfilemanager-master/tinyfilemanager.php 1 88 0 1
+/.remote-sync.json 1 107 0 0
+/2017/wp-includes/wlwmanifest.xml 5 440 0 0
+/wp-content/themes/tinyfilemanager.php 1 88 0 0
+/sample-page/ 9 166645 0 0
+/wp-admin/admin.php 4 41813 0 2
+/tf.php 1 88 0 0
+/wp-admin/admin-ajax.php 11 1756 0 0
+/admin/.env 4 428 0 0
+/blog/ 2 176 0 0
+/.env 5 535 4 0
+/wp/ 2 176 0 2
+/qr-code-test/ 9 143076 0 0
+/sites/.env 4 428 0 0
+/wp-json/wp/v2/users/me 1 292 0 0
+/cms/wp-includes/wlwmanifest.xml 38 3344 0 0
+/2018/wp-includes/wlwmanifest.xml 23 2024 0 0
+/author/bennijengmail-com/ 1 6438 1 1
+/shop/.env 4 428 0 4
+/wp-config.php.gd 1 88 1 1
+/wp-json/oembed/1.0/embed 12 22760 0 0
+/wp/wp-includes/wlwmanifest.xml 38 3344 0 0
+/wp-content/plugins/elementor/assets/lib/eicons/fonts/eicons.woff2 18 1545120 0 6
+//vendor/phpunit/phpunit/phpunit.xsd 2 214 2 2
+/wordpress/wp-includes/wlwmanifest.xml 38 3344 0 0
+/deployment-config.json 1 107 0 0
+/sito/wp-includes/wlwmanifest.xml 38 3344 0 35
+/wp-content/plugins/media-library-assistant/includes/mla-file-downloader.php 2 214 1 1
+/2020/wp-includes/wlwmanifest.xml 12 1056 0 0
+/wp-json/wp/v2/blocks 1 33 0 0
+/2016/wp-includes/wlwmanifest.xml 5 440 0 0
+/media/wp-includes/wlwmanifest.xml 23 2024 0 0
+/blog/.env 4 428 0 0
+/wp-content/themes/twentyseventeen/404.php 5 1770 4 4
+/test/.env 4 428 0 0
+/wp-json/wp/v2/taxonomies/post_tag 1 676 0 0
+/tfmanager.php 1 88 0 0
+/wp-admin/edit.php 1 17576 0 0
+/tinyfile.php 1 88 0 0
+/tinfilemanager.php 1 88 0 0
+/emerge.php 1 88 0 1
+/wp-json/wp/v2/users/ 1 294 0 0
+/eme.php 1 88 0 0
+/.vscode/ftp-sync.json 1 107 0 0
+/mergency.php 1 88 0 0
+/wp2/wp-includes/wlwmanifest.xml 38 3344 0 0
+/emerg.php 1 88 1 0
+END_SIDER

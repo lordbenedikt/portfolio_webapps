@@ -1,0 +1,36 @@
+[23-Oct-2021 18:10:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/admin.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/upgrade.php on line 17
+[23-Oct-2021 18:45:36 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/class-wp-privacy-requests-table.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php on line 11
+[23-Oct-2021 19:30:20 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-direct.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-direct.php on line 16
+[23-Oct-2021 21:06:18 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16
+[23-Oct-2021 21:06:39 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Privacy_Data_Export_Requests_List_Table' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/deprecated.php:1530
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/deprecated.php on line 1530
+[23-Oct-2021 23:14:57 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_filter() in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/ms-admin-filters.php:11
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/ms-admin-filters.php on line 11
+[23-Oct-2021 23:19:38 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Upgrader_Skin' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-automatic-upgrader-skin.php:21
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-automatic-upgrader-skin.php on line 21
+[24-Oct-2021 04:12:41 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[24-Oct-2021 04:31:47 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/class-wp-privacy-requests-table.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 11
+[27-Oct-2021 18:28:15 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_List_Table' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-comments-list-table.php:18
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-comments-list-table.php on line 18
+[27-Oct-2021 23:46:32 UTC] PHP Fatal error:  require_once(): Failed opening required 'ABSPATHwp-admin/includes/class-wp-privacy-requests-table.php' (include_path='.:/usr/local/php74/pear') in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php on line 11
+[28-Oct-2021 11:05:48 UTC] PHP Fatal error:  Uncaught Error: Class 'WP_Filesystem_Base' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php:16
+Stack trace:
+#0 {main}
+  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php on line 16

@@ -1,0 +1,28 @@
+[06-Aug-2021 14:53:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(5, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/benedikt-jensen.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/bened in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[06-Aug-2021 15:48:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(5, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/benedikt-jensen.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/bened in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[06-Aug-2021 15:52:01 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on bool in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(NULL, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/benedikt-jensen.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/be in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
+[06-Aug-2021 16:32:25 UTC] PHP Fatal error:  Uncaught Error: Call to a member function update_meta() on null in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php:285
+Stack trace:
+#0 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php(166): ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->save_conditions(2, Array)
+#1 [internal function]: ElementorPro\Modules\ThemeBuilder\Classes\Conditions_Manager->ajax_save_theme_template_conditions(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#2 /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#3 /home/customer/www/benedikt-jensen.com/public_html/wp-includes/class-wp-hook.php(303): Elementor\Core\Common\Modules\Ajax\Module->handle_ajax_request('')
+#4 /home/customer/www/bened in /home/customer/www/benedikt-jensen.com/public_html/wp-content/plugins/elementor-pro/modules/theme-builder/classes/conditions-manager.php on line 285
