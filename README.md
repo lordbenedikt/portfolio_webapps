@@ -4,8 +4,8 @@ This repository contains some webapps that are part of my portfolio. The portfol
 
 ## Links to web demos
 
-[AStar Demo](/astar_demo/index.html)
+[AStar Demo](https://lordbenedikt.github.io/portfolio_siteground/astar_demo/index.html)
 
-[Hangman Game](/hangman/index.html)
+[Hangman Game](https://lordbenedikt.github.io/portfolio_siteground/hangman/index.html)
 
-[Maze Generator](/maze_generator/index.html)
+[Maze Generator](https://lordbenedikt.github.io/portfolio_siteground/maze_generator/index.html)
