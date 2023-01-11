@@ -1,10 +1,167 @@
 <!DOCTYPE html>
 <html lang="de">
 <head>
-    
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Finds closeby places">
+    <meta name="author" content="Benedikt Jensen">
+    <title>Find Places</title>
+
+    <!-- Bootstrap CSS-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!-- Google Material icons-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+    <!-- overlayscrollbars CSS-->
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/css/OverlayScrollbars.min.css">
+
+    <!-- own CSS-->
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
-	Hello
+<!--Navbar-->
+<div id="top" style="background-color:#FF0266;height:60px;width:100%;padding:0;margin:0;">
+    <div style="width:97%">
+        <div class="row">
+            <div class="col-8">
+                <span id="heading">Find Places</span>
+            </div>
+            <div class="col-4" style="padding:10px;text-align:right">
+                <button style="font-weight:600;height:40px;border:0px;background-color:#AC033C"
+                        class="btn btn-secondary"
+                        id="imprint">Imprint
+                </button>
+            </div>
+        </div>
+    </div>
+</div>
+<div id="main">
+    <h1>The App to find your next Destination</h1>
+    <p id="geolocation" style="display:none;background-color:#AC033C;margin-right:0;color:white"></p>
+    <div style="text-align:left;margin-bottom:20px" class="row">
+        <div class="col-6">
+            <div class="row">
+                <div style="font-size:20px;font-weight:bold;margin-bottom:10px" class="col-12">
+                    Category:
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <input class="radioButton" type="radio" id="recommended" name="category" value="recommended" checked>
+                    <label class="radioLabel" for="recommended">Recommended</label>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <input class="radioButton" type="radio" id="going-out" name="category" value="going-out">
+                    <label class="radioLabel" for="going-out">Going Out</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-12 col-sm-6">
+                    <input class="radioButton" type="radio" id="eat-drink" name="category" value="eat-drink">
+                    <label class="radioLabel" for="eat-drink">Eat & Drink</label>
+                </div>
+                <div class="col-12 col-sm-6">
+                    <input class="radioButton" type="radio" id="natural-geographical" name="category" value="natural-geographical">
+                    <label class="radioLabel" for="natural-geographical">Nature</label>
+                </div>
+            </div>
+        </div>
+        <div class="col-6" style="text-align:right;">
+            <div class="row">
+                <div class="col-12">
+                    <div style="font-size:20px;font-weight:bold;margin-bottom:10px">Location:</div>
+                    <span id="location">&lt;Street&gt; &lt;Nr.&gt;<br>&lt;Postal Code&gt; &lt;City&gt;<br>&lt;Country&gt;</span>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div style="min-width:100px;width:100%;margin:auto;">
+        <a href="#newSearch" style="text-decoration: none">
+            <button id="getButton" class="btn btn-block btn-lg">Get Places</button>
+        </a><br>
+    </div>
+
+    <div id="searchResult" style="display:none">
+        <div class="row">
+            <div class="col-12">
+                <a href="#top" style="text-decoration: none;"><h2 id="newSearch">
+                    <i alt="new search" title="new search" class="center material-icons md-scalable">arrow_upward</i></h2></a>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-8">
+                <div id="suggestions">
+                    <h2 class="col">Suggestions</h2>
+                </div>
+            </div>
+            <div class="col-4">
+                <a href="#weather" style="text-decoration: none "><h2 style="text-align:right;">Weather</h2></a>
+            </div>
+        </div>
+        <div class="row" style="width:100%;margin:0;">
+            <div style="padding-left:0px;padding-right:0px;" class=" col-sm-8 col-12">
+                <div class="scrollbox" id="places"></div>
+            </div>
+            <div style="padding-left:0px;padding-right:0px;" class=" col-sm-4 col-12">
+                <div class="scrollbox" id="weather">
+                    <!--            weather forecast here-->
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!--    <div id="returnToTop" style="padding-left:30vw;padding-right:30vw">-->
+    <!--        <a style="text-decoration: none;" href="#top">-->
+    <!--            <h2 style="text-align:center;-->
+    <!--                        margin-top:50vh;-->
+    <!--                        margin-bottom:50vh;-->
+    <!--                        padding:3vh;-->
+    <!--                        background-color:#FF0266;-->
+    <!--                        border-radius:5px;">Start Search</h2>-->
+    <!--        </a>-->
+    <!--    </div>-->
+
+    <!--Imprint-->
+    <div class="modal fade" id="imprintmodal" role="dialog">
+        <div class="modal-dialog modal-dialog-centered " role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h2 class="modal-title">Imprint</h2>
+                    <!--                    <button class="close" type="button" data-dismiss="modal">-->
+                    <!--                        <span>&times;</span>-->
+                    <!--                    </button>-->
+                </div>
+                <div class="modal-body"><p>Benedikt Jensen<br> Trieb 3<br> 35394 Gießen<br>
+                    e-mail: benedikt.jensen[at]mni.thm.de<br> Telefon: +49 175 2153538</p></div>
+                <div class="modal-footer">
+                    <button id="closeButton" class="btn btn-secondary" type="button" data-dismiss="modal">Schlie&szlig;en</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS-->
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+
+<!--overlayscrollbars JS-->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/overlayscrollbars/1.13.0/js/OverlayScrollbars.min.js"></script>
+
+<!-- custom JS-->
+<script src="js/index.js"></script>
+
 </body>
 </html>
