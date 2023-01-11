@@ -1,8 +1,0 @@
-[23-Oct-2021 23:50:27 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Transport/cURL.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Transport/cURL.php on line 15
-[24-Oct-2021 04:35:42 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Transport' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Transport/fsockopen.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Transport/fsockopen.php on line 15

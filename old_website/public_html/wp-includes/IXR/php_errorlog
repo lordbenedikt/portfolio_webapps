@@ -1,8 +1,0 @@
-[24-Oct-2021 03:17:25 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Server' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/IXR/class-IXR-introspectionserver.php:9
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/IXR/class-IXR-introspectionserver.php on line 9
-[24-Oct-2021 04:39:57 UTC] PHP Fatal error:  Uncaught Error: Class 'IXR_Client' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/IXR/class-IXR-clientmulticall.php:8
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/IXR/class-IXR-clientmulticall.php on line 8

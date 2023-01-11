@@ -1,4 +1,0 @@
-[23-Oct-2021 20:05:51 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Hooker' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Hooks.php:15
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Hooks.php on line 15

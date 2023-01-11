@@ -1,4 +1,0 @@
-[23-Oct-2021 20:41:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/blocks/social-link.php:62
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/blocks/social-link.php on line 62

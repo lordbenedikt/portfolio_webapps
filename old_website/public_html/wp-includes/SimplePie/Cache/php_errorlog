@@ -1,4 +1,0 @@
-[24-Oct-2021 00:05:04 UTC] PHP Fatal error:  Uncaught Error: Interface 'SimplePie_Cache_Base' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/SimplePie/Cache/File.php:50
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/SimplePie/Cache/File.php on line 50

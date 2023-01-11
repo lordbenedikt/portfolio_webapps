@@ -1,4 +1,0 @@
-[23-Oct-2021 19:01:48 UTC] PHP Fatal error:  Uncaught Error: Interface 'Requests_Auth' not found in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Auth/Basic.php:18
-Stack trace:
-#0 {main}
-  thrown in /home/customer/www/benedikt-jensen.com/public_html/wp-includes/Requests/Auth/Basic.php on line 18
