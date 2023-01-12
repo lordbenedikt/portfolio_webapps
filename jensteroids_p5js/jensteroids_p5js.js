@@ -88,7 +88,7 @@ function setup() {
 
   // game variables
   state = GameModes.MENU;
-  liveTime = 200;
+  liveTime = 0;
   hp = 100; //health points
   count = 4; //timer for the asteroids
   score = 0;
@@ -517,7 +517,7 @@ class UFO {
   update() {
     if (this.pos.x < -500 || this.pos.x > viewWidth+500 || this.pos.y < -500 || this.pos.y > viewHeight+500)
     {
-      rockets.splice(rockets.indexOf(this), 1);
+      UFOs.splice(UFOs.indexOf(this), 1);
     }
     this.revolveCenter.add(this.speed);
     this.pos = this.revolveCenter.copy();
