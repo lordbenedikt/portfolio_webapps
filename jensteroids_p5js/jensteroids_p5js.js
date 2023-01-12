@@ -1,3 +1,12 @@
+class Box {
+  constructor(x,y,w,h) {
+    this.x = x;
+    this.y = y;
+    this.w = w;
+    this.h = h;
+  }
+}
+
 class Star {
   constructor() {
     this.x = random(-width, width);
@@ -156,7 +165,7 @@ function draw() {
     drawStars();
 
     // test graphics buffer
-    //image(pC, width/2, height/2, width, height);
+    //image(pC, width/2, height/2);
 
     gameover.stop();
     if (!(backgroundmusic.isPlaying())) {
@@ -436,9 +445,17 @@ class Rocket {
     }
   }
   collWithPlayer() {
-    if (dist(this.pos.x, this.pos.y, jens_x, jens_y) > rocketIMG.width/2 + jens_r) {
+    // to improve performance
+    if (frameCount % 4 != 0) {
       return false;
     }
+
+    let jens_box = new Box(jens_x - jens_r, jens_y - jens_r, jens_r*2, jens_r*2);
+    let rocket_box = new Box(this.pos.x - rocketIMG.width/2, this.pos.y - rocketIMG.height/2, rocketIMG.width, rocketIMG.height);
+    if (!boxesOverlap(jens_box,rocket_box)) {
+      return false;
+    }
+
     pC.clear(0);
 
     pC.tint(0, 255, 0, 200);
@@ -446,44 +463,45 @@ class Rocket {
     pC.tint(255, 0, 0, 200);
     this.drawOn(pC);
 
-    //pC.rect(100,100,100,100);
-
     pC.loadPixels();
 
+    let p_density = pC.pixelDensity();
 
-    for (let i = 0; i<pC.pixels.length; i+=4) {
-      let red = pC.pixels[i];
-      let green = pC.pixels[i+1];
-      if ((red>0)&&(green>0)) {
-        return true;
+    let pC_w = pC.width * p_density;
+    let pC_h = pC.height * p_density;
+    let xMin = int((jens_x-jens_r) * p_density) - 1;
+    let xMax = int((jens_x+jens_r) * p_density) + 1;
+    let yMin = int((jens_y-jens_r) * p_density) - 1;
+    let yMax = int((jens_y+jens_r) * p_density) + 1;
+
+    //console.log("length: " +pC.pixels.length);
+    //for(let it = 0; it<pC.pixels.length; it++) {
+    //  if(pC.pixels[it]!=0) console.log(pC.pixels[it] + "at: " + it);
+    //}
+
+    for (let y = yMin; y<yMax; y++) {
+      if (y<0 || y>=pC_h) {
+        continue;
+      }
+
+      for (let x = xMin; x<xMax; x++) {
+        if (x<0 || x>=pC_w) {
+          continue;
+        }
+        //fill(255);
+        //stroke(255);
+        //circle(x*5,y*5,1);
+
+        let pixelIndex = int(int(y*200+x) * 4);
+        let red = pC.pixels[pixelIndex];
+        let green = pC.pixels[pixelIndex + 1];
+        if ((red>0)&&(green>0)) {
+          return true;
+        }
       }
     }
+
     return false;
-
-    //let xMin = int(this.pos.x-rocketIMG.width/2);
-    //let xMax = int(this.pos.x+rocketIMG.width/2);
-    //let yMin = int(this.pos.y-rocketIMG.height/2);
-    //let yMax = int(this.pos.y+rocketIMG.height/2);
-
-    //for (let y = yMin; y<yMax; y++) {
-    //  if (y<0 || y>=viewHeight) {
-    //    continue;
-    //  }
-
-    //for (let x = xMin; x<xMax; x++) {
-    //  if (x<0 || x>=viewWidth) {
-    //    continue;
-    //  }
-
-    //let red = pC.pixels[(y*width+x) * 4];
-    //let green = pC.pixels[(y*width+x) * 4 + 1];
-    //if ((red>0)&&(green>0)) {
-    //  return true;
-    //  }
-    //}
-    //}
-
-    //return false;
   }
 }
 
@@ -525,7 +543,7 @@ class UFO {
     if (this.collWithPlayer()) {
       hp -= 20;
       spawnExplosion(this.pos.x, this.pos.y, 50);
-      UFOs.splice(UFOs.indexOf(this),1);
+      UFOs.splice(UFOs.indexOf(this), 1);
     }
   }
   draw() {
@@ -547,7 +565,14 @@ class UFO {
     }
   }
   collWithPlayer() {
-    if (dist(this.pos.x, this.pos.y, jens_x, jens_y) > UFOIMG.width/2 + jens.width/2) {
+    // to increase performance
+    if (frameCount % 4 != 0) {
+      return false;
+    }
+
+    let jens_box = new Box(jens_x - jens_r, jens_y - jens_r, jens_r*2, jens_r*2);
+    let ufo_box = new Box(this.pos.x - UFOIMG.width/2, this.pos.y - UFOIMG.height/2, UFOIMG.width, UFOIMG.height);
+    if (!boxesOverlap(jens_box, ufo_box)) {
       return false;
     }
 
@@ -560,12 +585,39 @@ class UFO {
 
     pC.loadPixels();
 
+    let p_density = pC.pixelDensity();
 
-    for (let i = 0; i<pC.pixels.length; i+=4) {
-      let red = pC.pixels[i];
-      let green = pC.pixels[i+1];
-      if ((red>0)&&(green>0)) {
-        return true;
+    let pC_w = pC.width * p_density;
+    let pC_h = pC.height * p_density;
+    let xMin = int((jens_x-jens_r) * p_density) - 1;
+    let xMax = int((jens_x+jens_r) * p_density) + 1;
+    let yMin = int((jens_y-jens_r) * p_density) - 1;
+    let yMax = int((jens_y+jens_r) * p_density) + 1;
+
+    //console.log("length: " +pC.pixels.length);
+    //for(let it = 0; it<pC.pixels.length; it++) {
+    //  if(pC.pixels[it]!=0) console.log(pC.pixels[it] + "at: " + it);
+    //}
+
+    for (let y = yMin; y<yMax; y++) {
+      if (y<0 || y>=pC_h) {
+        continue;
+      }
+
+      for (let x = xMin; x<xMax; x++) {
+        if (x<0 || x>=pC_w) {
+          continue;
+        }
+        //fill(255);
+        //stroke(255);
+        //circle(x*5,y*5,1);
+
+        let pixelIndex = int(int(y*200+x) * 4);
+        let red = pC.pixels[pixelIndex];
+        let green = pC.pixels[pixelIndex + 1];
+        if ((red>0)&&(green>0)) {
+          return true;
+        }
       }
     }
 
@@ -675,7 +727,7 @@ function restartGame() {
 
   hp = 100;
   score = 0;
-  liveTime = 0;
+  liveTime = 210;
   restart.play(0);
   state = GameModes.PLAY;
   jens_x = 400;
@@ -757,4 +809,20 @@ function posTopOrBottom() {
   }
 
   return pos;
+}
+
+function boxesOverlap(box1, box2) {
+  if (box1.x+box1.w < box2.x) {
+    return false;
+  }
+  if (box1.y+box1.h < box2.y) {
+    return false;
+  }
+  if (box2.x+box2.w < box1.x) {
+    return false;
+  }
+  if (box2.y+box2.h < box1.y) {
+    return false;
+  }
+  return true;
 }
