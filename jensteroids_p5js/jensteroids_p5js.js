@@ -1,5 +1,5 @@
 class Box {
-  constructor(x,y,w,h) {
+  constructor(x, y, w, h) {
     this.x = x;
     this.y = y;
     this.w = w;
@@ -452,11 +452,15 @@ class Rocket {
 
     let jens_box = new Box(jens_x - jens_r, jens_y - jens_r, jens_r*2, jens_r*2);
     let rocket_box = new Box(this.pos.x - rocketIMG.width/2, this.pos.y - rocketIMG.height/2, rocketIMG.width, rocketIMG.height);
-    if (!boxesOverlap(jens_box,rocket_box)) {
+    if (!boxesOverlap(jens_box, rocket_box)) {
       return false;
     }
 
-    pC.clear(0);
+    pC.fill(0);
+    pC.stroke(0);
+    pC.tint(255, 255);
+    pC.rect(jens_box.x, jens_box.y, jens_box.w, jens_box.h);
+    pC.rect(rocket_box.x, rocket_box.y, rocket_box.w, rocket_box.h);
 
     pC.tint(0, 255, 0, 200);
     drawJensOn(pC);
@@ -576,7 +580,11 @@ class UFO {
       return false;
     }
 
-    pC.clear(0);
+    pC.fill(0);
+    pC.stroke(0);
+    pC.tint(255, 255);
+    pC.rect(jens_box.x, jens_box.y, jens_box.w, jens_box.h);
+    pC.rect(ufo_box.x, ufo_box.y, ufo_box.w, ufo_box.h);
 
     pC.tint(0, 255, 0, 200);
     drawJensOn(pC);
