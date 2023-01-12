@@ -4,6 +4,8 @@ This repository contains some webapps that are part of my portfolio. The portfol
 
 ## Links to web demos
 
+[Jensteroids](https://lordbenedikt.github.io/portfolio_webapps/jensteroids_p5js/index.html)
+
 [AStar Demo](https://lordbenedikt.github.io/portfolio_webapps/astar_demo/index.html)
 
 [Hangman Game](https://lordbenedikt.github.io/portfolio_webapps/hangman/index.html)
